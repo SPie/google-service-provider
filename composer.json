@@ -24,6 +24,13 @@
             "tests/"
         ]
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SPie\\GoogleServiceProvider\\Providers\\LaravelGoogleServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
